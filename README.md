@@ -9,9 +9,13 @@ Made with .NET Core v3.1
 The file must be in the EscapeMines **root directory** as **game.txt**
 
 **First line**: board size (row, column) in tiles separated by space.
+
 **Second line**: list of zero based mines locations (row, column) separated by space. Each row/column pair separated by comma.
+
 **Third line**: zero based exit location (row, column) separated by space.
+
 **Fourth line**: zero based turtle position (row, column, direction) separated by space. Direction can be N, S, E or W.
+
 **Fifth line and greater**: sequence of commands to be executed. These commands can be M, R or L. M as move, R as rotate to the right and L as rotate to the left.
 
 **Example**:
